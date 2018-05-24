@@ -4,3 +4,6 @@ applications:
   memory: 512M
   instances: 1
   random-route: true
+  env:
+    lowercase.with.dots: one two three
+    UPPERCASE_WITH_UNDERSCORES: four five six
